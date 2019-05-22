@@ -1,0 +1,313 @@
+@import url(font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Istok+Web');
+
+
+body{
+    font-family: 'Istok Web', sans-serif;
+}
+
+h2{
+    color: #775ba3;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+
+
+
+/*Header Starts*/
+
+
+
+.navbar{
+    border-radius: 0;
+    border: none;
+    min-height: 75px;
+
+}
+
+.navbar-inverse{
+    background-color: #9a7da3;
+    border-top: 4px solid #a997c5;
+    opacity: 0.6;
+}
+
+.navbar-brand{
+    padding: 0 120px 25px 15px;
+}
+.navbar-inverse .navbar-nav > li > a{
+    color: #ffffff;
+}
+.navbar-nav{
+    padding-top: 10px;
+}
+
+.navbar-inverse .navbar-nav > li > .active, .navbar-inverse .navbar-nav > li > a:hover{
+    border-bottom: 3px solid #f8e1b4;
+    padding-bottom: 23px;
+}
+
+/*Guidant Section starts*/
+
+
+
+#guidant{
+    background-color: #ffffff;
+    padding: 115px 0;
+    border-bottom: 1px solid #91c5a9;
+}
+
+#guidant p{
+    color: #4b3f55;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 1.65em;
+}
+
+#guidant h2{
+    margin-bottom: 60px;
+}
+
+
+
+/*Postérité Section Starts*/
+
+
+#postérité{
+    background-color: #fcfcfc;
+    padding: 80px 0;
+    border-top: 1px solid #91c5a9;
+    border-bottom: 1px solid #91c5a9;
+}
+
+#postérité h3 {
+    font-size: 40px;
+    color: #7e63a7;
+    font-weight: normal;
+    margin: 0 0 55px 0;
+}
+
+#postérité div p:first-child{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #4b3f55;
+    border-radius: 100%;
+    margin:0 auto 50px ;
+}
+
+#postérité div i{
+    color: #4b3f55;
+    position: relative;
+    top: 16px;
+    /padding-top: 26px;
+}
+
+#postérité div p:last-child{
+    font-size: 13px;
+    color: #4b3f55;
+    line-height: 1.7em;
+    font-weight: bold;
+}
+
+#postérité figure{
+    position: relative;
+    right: 5px;
+    top: 60px;
+}
+/*
+
+
+
+
+
+
+
+
+
+#postérité div p:last-child::first-letter{
+    font-size: 53px;
+    color: #91c5a9;
+}
+*/
+
+
+/*Notre Equipe section start*/
+
+#equipe{
+    background-color: #ffffff;
+    padding: 112px 0;
+}
+
+#equipe h2{
+    margin: 0 0 50px;
+}
+
+
+.thumbnail{
+    border: none;
+}
+
+.thumbnail > img{
+    border-bottom: 3px solid #91c5a9;
+}
+
+#equipe .caption{
+    padding: 0;
+}
+
+#equipe .caption h3{
+    font-size: 15px;
+    color: #91c5a9;
+    font-weight: bold;
+    border-bottom: 4px solid #91c5a9;
+    padding: 12px 0 15px 5px;
+    margin: 0;
+}
+
+#equipe h3 > small{
+    font-size: 12px;
+    color: #91c5a9;
+    font-weight: bold;
+
+}
+
+#equipe .caption > p:nth-child(2){
+    color: #4b3f55;
+    font-size: 13px;
+    margin: 20px 0 35px;
+}
+
+
+#equipe .btn{
+    border: none;
+    border-radius: 0;
+}
+
+
+#equipe .caption p:last-child > .btn-primary{
+    background-color: #3b5998;
+}
+
+#equipe .caption p:last-child > .btn-danger{
+    background-color: #d14333;
+}
+
+
+#equipe .caption p:last-child > .btn-warning{
+    background-color: #ea4c88;
+}
+
+#equipe .caption p:last-child > .btn-info{
+    background-color: #00aced;
+}
+
+#equipe .caption p:last-child > .btn-success{
+    background-color: #c70c0c;
+}
+
+*/
+
+/*Custom responsive*/
+
+@media (min-width: 320px) and (max-width: 480px){
+    h2{
+        /font-size: 32px;
+    }
+
+    .navbar{
+        /min-height: 48px;
+    }
+
+    .navbar-brand{
+        /height: 45px;
+        /padding: 0 15px 25px;
+    }
+
+    .navbar-brand > img{
+        /height: 35px;
+    }
+
+    .navbar-toggle{
+        /margin-bottom: 0;
+    }
+
+    #guidant{
+        /padding: 60px 0;
+    }
+
+    #guidant h2{
+        /margin-bottom: 30px;
+    }
+
+    #guidant p{
+        /font-size: 15px;
+    }
+    #postérité div p:first-child {
+        /margin-top: 20px;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .navbar-brand{
+        /padding: 0 65px 25px 15px;
+    }
+
+    #guidant{
+        /padding: 65px 0;
+    }
+
+    #guidant h2{
+        /margin-bottom: 25px;
+    }
+
+    #guidant p{
+        /font-size: 22px;
+    }
+    #postérité div p:first-child {
+        /margin-top: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
